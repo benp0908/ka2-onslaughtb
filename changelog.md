@@ -1,4 +1,2 @@
-# changelog is located on changelog.md.
-- example
-- example 2
-# example 3
+# RELEASE - 16/9/2019 
+- Tankbox was made by Zephyr and 7rodo

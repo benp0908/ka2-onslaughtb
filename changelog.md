@@ -1,2 +1,2 @@
-# RELEASE - 16/9/2019 
-- Tankbox was made by Zephyr and 7rodo
+- You must Defend the Base for 10 Whole Waves to win the game.
+- Thanks for Playing!

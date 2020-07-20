@@ -1873,7 +1873,7 @@
                                     delta: c,
                                     latency: d
                                 });
-                                if (10 > S.length) setTimeout(() => g.talk("S", Date.now() - P - Q), 75), b.message = `Loading... ${10*S.length}%`;
+                                if (10 > S.length) setTimeout(() => g.talk("S", Date.now() - P - Q), 75), b.message = `Tip: Beware of Safety - ${1*S.length}/10...`;
                                 else {
                                     S.sort((b, a) => b.latency - a.latency);
                                     let a = S[Math.floor(S.length / 2)].latency,
@@ -2903,19 +2903,15 @@
                         e = m();
                     m();
                     var c = [
-                        ["Tip: You can view and edit your keybinds in the options menu.", "Tip: You can play on mobile by just going to arras.io on your phone!"],
-                        ["Tip: You can have the shield and health bar be separated by going to the options menu.",
-                            "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.", "Tip: You can make traps rounded with the classic trap setting in the options menu.", "Tip: You can create your own private server with the template in the link on the options menu.", "Tip: You can create your own theme with the custom theme makerin the link on the options menu."
-                        ],
-                        ["Teaming in FFA or FFA Maze is frowned upon, but when taken to the extremes, you can be punished.", "Witch hunting is when you continuously target someone and follow them. This is frowned upon, but when taken to the extremes, you can be punished.",
-                            "Multiboxing is when you use a script to control multiple tanks at the same time. This is considered CHEATING and will result in a ban."
-                        ]
+                        ["Please wait for the Server to Respond..."],
+                        
+                        
                     ];
                     c = c[Math.floor(Math.random() * c.length)];
                     let g = c[Math.floor(Math.random() * c.length)];
                     return () => {
                         F(l.white, .5);
-                        a.draw("Connecting...", b.screenWidth / 2, b.screenHeight / 2, 30, l.guiwhite, "center");
+                        a.draw("Setting up the Base...", b.screenWidth / 2, b.screenHeight / 2, 30, l.guiwhite, "center");
                         e.draw(b.message, b.screenWidth / 2, b.screenHeight / 2 + 30, 15, l.lgreen, "center");
                         e.draw(g, b.screenWidth / 2, b.screenHeight / 2 + 75, 15, l.guiwhite, "center")
                     }
@@ -3211,7 +3207,7 @@
                     id: "a",
                     type: "1ffa",
                     code: "your-server-f",
-                    at: p.glitch("tankbox"),
+                    at: p.glitch("destroytheattacker"),
                 },].map((a, e) => ({
                     data: a,
                     i: e

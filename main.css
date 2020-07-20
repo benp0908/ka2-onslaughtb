@@ -25,7 +25,7 @@ html, body {
 body {
   font-family: Ubuntu;
   font-size: 14px;
-  background-color: #484848;
+  background-image: url("https://cdn.glitch.com/11c5c5db-c9db-47f4-8ee4-84768a2a98de%2FScreenshot%202020-07-11%20at%204.51.51%20PM%20(2).png?v=1594573399408");
 }
 
 hr {
@@ -42,9 +42,11 @@ html, body, canvas {
 
 h1 {
   padding: 0;
-  margin: 0;
-  text-align: center;
-  font: bold 40px/1.1 Ubuntu;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 div.optionsHeader {
@@ -524,24 +526,24 @@ body.mobile .icon {
   color: white;
   text-align: center;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
-  background: #A9D86D;
+  background: #00c1ffff;
   border: 0;
-  border-bottom: 2px solid #8ABC3F;
+  border-bottom: 2px solid #2484bf;
   cursor: pointer;
-  box-shadow: inset 0 -2px #8ABC3F;
+  box-shadow: inset 0 -2px #2484bf;
   border-radius: 5px;
   font: 16px Ubuntu;
 }
 #startButton:hover {
   margin-top: 1px;
   height: 39px;
-  border-bottom: 1px solid #8ABC3F;
+  border-bottom: 1px solid #1797e6;
 }
 
 #startButton:active {
   margin-top: 2px;
   height: 38px;
-  background: #8ABC3F;
+  background: #1797e6;
   border-bottom: 0px
   outline: none;
   box-shadow: none;
